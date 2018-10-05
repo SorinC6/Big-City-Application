@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "BigCityWeather",
+    "description": "My first project in React Native. The application will show you the weather information of all the big citys in Europe also you can search weather in around the world by city name .Using Api from https://openweathermap.org/",
+    "slug": "CityWeather",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/w2.png",
+    "splash": {
+      "image": "./assets/w4.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
